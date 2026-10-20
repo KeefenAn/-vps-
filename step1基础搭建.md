@@ -74,6 +74,7 @@
 apt update && apt install -y curl tar ca-certificates && apt clean
 
 # 安装 3x-ui v2.9.4（安装脚本链接待补，见 3x-ui 官方仓库）
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v2.9.4
 
 # 查看面板设置
 x-ui settings
